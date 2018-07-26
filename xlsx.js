@@ -20413,8 +20413,8 @@ var StyleBuilder = function (options) {
       // the second style MUST be gray125 for some reason
 
       var defaultStyle = options.defaultCellStyle || {};
-      if (!defaultStyle.font) defaultStyle.font = {name: 'Calibri', sz: '12'};
-      if (!defaultStyle.font.name) defaultStyle.font.name = 'Calibri';
+      if (!defaultStyle.font) defaultStyle.font = {name: '宋体', sz: '12'};
+      if (!defaultStyle.font.name) defaultStyle.font.name = '宋体';
       if (!defaultStyle.font.sz) defaultStyle.font.sz = 11;
       if (!defaultStyle.fill) defaultStyle.fill = {  patternType: "none", fgColor: {}};
       if (!defaultStyle.border) defaultStyle.border = {};
